@@ -1,0 +1,86 @@
+	body {
+		height: 100vh;	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background:linear-gradient(90deg, rgba(0,97,255,0.2) 0%, rgba(96,239,255,0.4) 100%), url(../img/pozadi-index.jpg);
+		background-size: cover;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	h1 {
+		text-align: center;
+		font-weight: 600;
+		font-size: 30px;
+	}
+
+  .container {
+	padding: 20px;
+	width: 700px;
+	height: 250px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0 3px 10px rgba(27, 27, 27, 0.4);
+  }
+
+  .tlacitka{
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+  }
+
+  .button {
+	padding: 20px 30px;
+	border-radius: 20px;
+	font-size: 20px;
+	text-align: center;
+	border: none;
+  }
+
+  .button1 {
+	background-color: #0f2f57;
+	border: 2px solid #0f2f57;
+	color: white;
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  }
+
+  .button1:hover {
+	color: white;
+	transform: scale(1.3);
+	
+  }
+
+  .button2 {
+	background-color: #0072BB;
+	border: 2px solid #0072BB;
+	color: white;
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	
+
+  }
+
+  .button2:hover {
+	color: white;
+	transform: scale(1.3);
+  }
+
+  .button3 {
+	background-color: transparent;
+	border: 2px solid #0072BB;
+	color: #0072BB;
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  }
+
+  .button3:hover {
+	color: #0072BB;
+	transform: scale(1.3);
+	
+
+  }
+
+  

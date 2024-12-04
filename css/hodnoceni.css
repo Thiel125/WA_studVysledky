@@ -1,0 +1,65 @@
+body {
+	background-color: rgb(128, 128, 128);
+  }
+
+  h1 {
+	text-align: center;
+}
+
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+  }
+  
+  nav li {
+	float: left;
+  }
+  
+  nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 28px;
+	text-decoration: none;
+  }
+  
+  nav li a:hover {
+	background-color: #111;
+  }
+  .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+
+ table {
+  width: 80%;
+  margin: 50px auto;
+  border-collapse: collapse;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+th {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#formular {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 10vh;
+}
